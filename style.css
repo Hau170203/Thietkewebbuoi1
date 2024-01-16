@@ -1,0 +1,33 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+.color-red {
+    color: red;
+}
+.color-green {
+    color: green;
+}
+.box {
+    background-image: url(anh/pexels-pixabay-326055.jpg);
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.box-model1 {
+    background-color: green;
+    border: 5px solid #000;
+    margin-bottom: 20px;
+}
+.box-model2 {
+    background-color: red;
+    border: 10px dashed #c4c1c1;
+    background-clip: padding-box;
+    margin-bottom: 20px;   
+}
+.text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
