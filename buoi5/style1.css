@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+}
+.box {
+    background-color: rgb(251, 253, 254);
+    width: 200px;
+}
+.box li {
+    list-style-type: none;
+    border: 1px solid #dfdada;
+    border-collapse: collapse ;
+    padding: 5px;
+    
+}
+li:hover {
+    background-color: blue;
+    color: white;
+}
+.icon {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #eeeaea;
+    display: flex;
+}
+.icon i {
+    background-color:  #dfdada;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i:hover {
+    background-color: yellow;
+}
