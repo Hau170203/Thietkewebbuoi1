@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background: #F9F9FF;
+    padding: 80px 0;
+    text-align: center;
+}
+.content {
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 50px;
+    
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e7e1e1;
+    
+}
+.item {
+    width: 25%;
+    padding: 15px 0;
+    border: 2px solid #ede9e9;
+}
+.item img {
+    height: 30px;
+}
