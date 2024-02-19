@@ -16,7 +16,7 @@ a:hover{
 
 .box {
     background-color: #F9F9FF;
-    padding: 70px;
+    padding: 50px;
 }
 .box h2 {
     font-size: 50px;
@@ -36,11 +36,11 @@ a:hover{
     margin-right: 20px;
     background-color: #ffff;
     border-radius: 5px;
-    border: #192335 solid 1px;
+    border: #dbdfe7 solid 1px;
     display: inline-flex;
     align-items: center;
     overflow: hidden;
-
+    
 }
 .item:nth-child(4){
     margin-right: 0px;
