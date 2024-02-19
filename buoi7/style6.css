@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.header {
+    background-color: #0A033C;
+    font-family: 'Be Vietnam Pro',sans-serif;
+}
+.header .box .content {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px;
+
+}
+.box .logo img {
+    width: 300px;
+    height: 60px;
+}
+.box .menu {
+    padding: 5px 0px;
+}
+.box .menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.box .menu li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+.box .menu li a.active, .box .menu li a:hover {
+    color: #00ADEF;
+}
+.box .button {
+    background-color: white;
+    color: #0A033C;
+    border-radius: 9px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.box .button:hover{
+    background-color: #00ADEF;
+}
