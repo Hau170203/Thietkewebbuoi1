@@ -1,0 +1,315 @@
+/* Header */
+.header {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.header-top {
+    background: var(--color-one);
+    color: var(--color-two);
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    background: var(--color-text);
+    color: #ffffff;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 45px;
+    border: 2px solid var(--color-text);
+    display: inline-block;
+}
+.button:hover {
+    color: var(--color-text);
+    background-color: #ffffff;
+}
+.button-two {
+    background: var(--color-two);
+    border-color: var(--color-two);
+}
+.button-two:hover {
+    color: var(--color-two);
+}
+.header-main .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-main .logo a {
+    color: var(--color-one);
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+.header-main .logo span {
+    font-size: 22px;
+    font-weight: 600;
+}
+.header-main .logo img {
+    height: 48px;
+    width: auto;
+    margin-right: 10px;
+}
+.header-main .menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;  
+}
+.header-main .menu ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.header-main .menu ul li a {
+    color: var(--color-one);
+    font-size: 18px;
+}
+.header-main .menu ul li a:hover{
+    color: #007bff;
+}
+.header-main .contact {
+    font-size: 18px;
+    color: var(--color-text);
+
+}
+.header-main .social ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
+.header-main .social ul li {
+    margin-left: 15px;
+}
+.header-main .social ul li a {
+    color: var(--color-one);
+    font-size: 26px;
+}
+.header-main .inner-menu-mobi {
+    display: none;
+}
+/* end header */
+
+
+/* section one */
+.section-one {
+    background: #f0f2f5;
+    padding: 100px 0;
+}
+.section-one .inner-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-one .content {
+    width: 50%;
+}
+.section-one .content .title {
+    font-size: 60px;
+    color: var(--color-one);
+
+}
+.section-one .content .desc {
+    font-size: 20px;
+    color: var(--color-one);
+    margin-bottom: 40px;
+    
+}
+
+.section-one .content .list {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.section-one .content  .item {
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.section-one .content .item i {
+    font-size: 22px;
+    margin-right: 10px;
+}
+.section-one .image {
+    width: 50%;
+    position: relative;
+}
+
+.section-one .image img {
+    width: 100%;
+    height: auto;
+}
+.section-one .image .sale {
+    position: absolute;
+    top: 0;
+    right: 150px;
+    background: var(--color-two);
+    color: var(--color-one);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-one .image .sale span:nth-child(1){
+    font-size: 22px;
+    font-weight: 600;
+}
+.section-one .image .sale span:nth-child(2){
+    font-size: 42px;
+    font-weight: 600;
+}
+
+/* end section one */
+
+
+/*section two */
+.section-two {
+    padding: 100px 0;
+}
+.section-two img {
+    width: 200px;
+}
+.section-two .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.section-two  .inner-box {
+    width: calc(100%/3 - 20px);
+    height: 100%;
+    /* ápect-ratio: tỉ lệ width/height của element */
+    aspect-ratio: 4/3;
+    position: relative;
+    overflow: hidden;
+}
+.section-two .inner-box img {
+    width: 100%;
+    height: 100%;
+    /* object-fit để ảnh tự co dãn hết width /height mà không bị vỡ */
+    object-fit: cover;
+    transition: all 0.6s;
+}
+.section-two .inner-box:hover img {
+    transform: scale(1.1);
+}
+.section-two .inner-box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    
+}
+.section-two .inner-box .tag {
+    background-color: #129F5D;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+.section-two .inner-box .title {
+    margin-top: 0;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50px;
+}
+.section-two .inner-box .title-2 {
+    color: var(--color-one);
+    font-size: 30px;
+}
+.section-two .inner-box .sale {
+    margin-top: -30px;
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: var(--color-two);
+}
+.section-two .inner-box .price-new {
+    margin-top: -30px;
+    font-size: 50px;
+    color: var(--color-two);
+}
+.section-two .inner-box .price-old {
+    font-size: 25px;
+    text-decoration: line-through;
+    margin-bottom: 20px;
+}
+.button-one {
+    background: var(--color-one);
+    border-color: var(--color-one);
+}
+.button-one:hover {
+    color: var(--color-one);
+}
+/* end section two */
+
+@media (max-width:992px) {
+    .header-main .contact {
+        display: none;
+    }
+    .section-two .inner-wrap {
+        flex-wrap: wrap;
+    }
+    .section-two .inner-box {
+        width: 100%;
+        aspect-ratio: 2/1;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:768px) {
+    .header-top {
+        font-size: 16px;
+    }
+    
+    .header-main .menu {
+        display: none;
+    }
+    .header-main .social {
+        display: none;
+    }
+    .header-main .inner-menu-mobi {
+        display: block;
+        font-size: 26px;
+        color: var(--color-one);
+    }
+    .section-one .content {
+        width: 100%;
+        order: 1;
+    }
+    .section-one .image {
+        width: 100%;
+        order: 0;
+    }
+    .section-one .content {
+        text-align: center;
+    }
+    .section-one .item {
+        justify-content: center;
+    }
+    .section-one .image .sale {
+        width: 100px;
+        height: 100px;
+        right: 130px;
+    }
+    .section-one .image .sale span:nth-child(1){
+        font-size: 16px;
+    }
+    .section-one .image .sale span:nth-child(2){
+        font-size: 28px;
+    }
+    .section-one .content .title {
+        font-size: 38px;    
+    }
+
+}
+@media (max-width:576px) {
+    .container {
+        max-width: 100%;
+    }
+    .section-two .inner-box {
+        aspect-ratio: 1/1;
+    }
+}
