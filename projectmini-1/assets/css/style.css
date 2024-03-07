@@ -3,6 +3,11 @@
     box-shadow: 1px 3px 0 rgba(0, 0, 0, 0.1);
     background: var(--color-bg);
     padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 .header .inner-wrap {
     display: flex;
@@ -88,6 +93,7 @@
     background-image: url(../image/background1.jpg);
     padding: 150px 0px;
     position: relative;
+    margin-top: 90px;
 
 }
 .section-one .container {
