@@ -1,3 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    
+}
+
+/* section-one */
+.section-one {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    /* position: relative; */
+}
+/* .section-one::before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+
+.section-one .inner-content {
+    padding-right: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-one .inner-content .inner-title {
+    color: #124265;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.section-one .inner-content .inner-desc {
+    color: #5e5e5e;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.section-one .inner-button button{
+    background: #2487ce;
+    color: white;
+    padding: 10px 30px;
+}
+.section-one .inner-button button:hover {
+    background: #2d9ae8;
+}
+.section-one .inner-box {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.section-one .inner-box .inner-item {
+    background: #fff;
+    /* margin-right: 10px;  */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section-one .inner-box .inner-item:nth-child(4) {
+    margin-right: 0;
+}
+
+.section-one .inner-box .inner-desc {
+    color: #5e5e5e;
+    font-size: 14px;
+}
+
+
+/* end section-one */
+
 /* box head */
 .box-head {
     text-align: center;
