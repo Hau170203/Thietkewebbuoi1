@@ -1,0 +1,80 @@
+/* box head */
+.box-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box-head .inner-title {
+    font-weight: 700;
+    color: #124265;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.box-head .inner-desc {
+    font-size: 16px;
+    color: #919191;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+/* ----------- */
+
+
+/* Testimonials */
+.Testimonials .inner-main {
+    background: #f3f9fd;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+.Testimonials .inner-main::after {
+    content: "";
+        width: 0; 
+        height: 0; 
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #f3f9fd;
+        position: absolute;
+        left: calc(50% - 20px);
+        top: 100%;
+}
+.Testimonials .inner-content {
+    position: relative;
+    text-align: center;
+}
+.Testimonials .inner-content::before {
+    content: "\f10d";
+    font-family: 900;
+    font-family: "Font Awesome 6 Free";
+    color: #c9e3f5;
+    font-size: 18px;
+}
+.Testimonials .inner-content::after {
+    content: "\f10e";
+    font-family: 900;
+    font-family: "Font Awesome 6 Free";
+    color: #c9e3f5;
+    font-size: 18px;
+}
+.Testimonials .inner-info {
+    text-align: center;
+    margin-top: 40px;
+}
+.Testimonials .inner-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.Testimonials .inner-info .inner-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.Testimonials .inner-info .inner-position {
+    color: #919191;
+    margin-bottom: 0;
+}
+/* ------------ */
